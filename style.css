@@ -1,0 +1,102 @@
+*{
+    justify-content: center;
+    align-items: center;
+}
+
+body {
+   
+    background-image: url(./images/wallpaper.png);
+    background-size: 100%;    
+
+}
+
+
+header { 
+    margin-top: 200px;
+    margin-bottom: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    flex: 1;
+    align-items: center;
+    font-family: 'Seymour One', sans-serif;
+    color: white;
+    font-size: 30px;
+    padding: 0;
+}
+
+.bar {
+    justify-content: center;
+    display: flex;
+
+}
+
+.txt {
+    font-size: 30px;
+    font-family: 'Pakistans', sans-serif;
+    text-align: left;
+    border: none;
+    outline: none;
+    width: 700px;
+    border-bottom: 2px lightgray solid;
+}
+
+.srchbtn {
+    border: none;
+    background: none;
+    opacity:30%;
+    transition-duration: 0.5s;
+    cursor: pointer;
+}
+
+.srchbtn:hover {
+    opacity: 100%;
+}
+
+#search {
+    font-size: 36px;
+}
+
+footer {
+    display: flex;
+    user-select: none;
+    margin-top: 260px;
+    font-family: 'Pakistans', sans-serif;
+    color: gray;
+    padding: 0%;
+}
+
+footer :hover {
+    color: red;
+    font-size: 30px;
+}
+
+.bar2 {
+    background-color: white;
+    padding-left: 30px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 50px;
+}
+
+@media (max-width: 600px) {
+    body {
+        background-size: 400%;
+    }
+
+    .txt {
+        width: 170px;
+        font-size: 20px;
+    }
+    header {
+        font-size: 20px;
+    }
+    #search {
+        font-size: 26px;
+    }
+    footer {
+        margin-top: 170px;
+    }
+}
+
